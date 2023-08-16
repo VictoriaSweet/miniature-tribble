@@ -1,0 +1,81 @@
+.flex-grid{
+    display:grid;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    font-weight: bold;
+    width: 760px;
+    height: 300px;
+    float:right;
+}
+
+.box:hover {
+  background-color: 00FFD8;
+  
+  box-shadow: -10px -40px 500px 50px pink ;
+}
+
+.box { 
+    display:flex;
+    width: 500px;
+    height: 7px;
+    margin-top: 0px;
+    float:right;
+    position:relative;
+    justify-content: space-between;
+  }
+
+  .header {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-style: normal;
+    font-size: 44px;
+    width: 900px;
+    height: 100px;
+    position:relative;
+
+
+  }
+
+.about-me {
+  display:flex;
+    background-image: url("../chic.jpg");
+    background-size: 500px 200px;
+    width: 500px;
+    height:200px;
+    align-items: center;
+    justify-content:center;
+
+}
+
+
+
+.contact-information {
+  display:flex;
+  background-image: url("../chic.jpg");
+  background-size:500px 200px;
+  width: 500px;
+  height:200px;
+  align-items: center;
+  justify-content: center;
+}
+
+  .professional-links {
+    display:flex;
+    background-image: url("../chic.jpg");
+    background-size: 500px 200px;
+    width: 500px;
+    height:200px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+    .work {
+      display:flex;
+      background-image: url("../chic.jpg");
+      background-size:  500px 200px;
+      width: 500px;
+      height:200px;
+      align-items: center;
+      justify-content: center;
+}
