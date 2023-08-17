@@ -1,16 +1,21 @@
 .header {
-  font-family: Trattatello, fantasy;
-  font-style: normal;
+  font-family: sans-serif;
   font-size: 44px;
   height: 200px;
-  border: 15px ridge #CFCFCF;
-  text-align:center;
+  border: 15px outset #CFCFCF;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500px;
+
 }
 
 .nav-container {
   display: flex !important;
   flex-direction: column !important;
-  justify-content: right !important;
+  justify-content: flex-end !important;
+  width: 1200px;
 }
 
 
@@ -33,7 +38,7 @@
 
 .link {
   display: flex;
-  width: 950px;
+  width: 1150px;
   height: 200px;
   align-items: center;
   justify-content: center;
@@ -43,20 +48,26 @@
   background-image: url("../chic.jpg");
   background-size: 500px 200px;
 }
-#about-me-header {
-  font-size:60px;
-  font-family: sans-serif;
+
+#about-me-header h3 {
+  font-size: 50px;
+  width: 250px;
+  height: 70px;
+  border: inset;
+
+
 }
 
 .about-me-article {
-  width:auto;
-  height:auto;
-  background-color: pink;
-  }
+  width: auto;
+  height: auto;
+  background-color: #EAB0B0;
+}
 
-#contact-information-header {
-  font-size:60px;
-  font-family: sans-serif;
+#contact-information-header h3 {
+  font-size: 50px;
+  width: 350px;
+  border: inset;
 }
 
 #contact-information {
@@ -65,32 +76,9 @@
 }
 
 .contact-information-article {
-  width:auto;
-  height:auto;
-  background-color: slategray;
-
-}
-
-#professional-links-header {
-  font-size:60px;
-  font-family: sans-serif;
-}
-
-.professional-links-article {
-  width:auto;
-  height:auto;
-  background-color: slategray;
-
-}
-
-#work-header {
-  font-size:60px;
-  font-family: sans-serif;
-}
-.work-article {
-  width:auto;
-  height:auto;
-  background-color: slategray;
+  width: auto;
+  height: auto;
+  background-color: #9C9C9C;
 
 }
 
@@ -99,16 +87,56 @@
   background-size: 500px 200px;
 }
 
+#professional-links-header h3 {
+  font-size: 50px;
+  border: inset;
+  width:350px;
+  height:130px;
+
+}
+
+.professional-links-article {
+  width: auto;;
+  height: auto;
+  background-color: #EA9898;
+}
+
+.professional-links {
+  color: black;
+}
+
+
+#work-header h3 {
+  font-size: 60px;
+  width: 300px;
+  border: inset;
+}
+
+.work-article {
+  width: auto;
+  height: auto;
+  background-color: slategray;
+
+
+}
+
+
+
 #work {
   background-image: url("../chic.jpg");
   background-size: 500px 200px;
 }
 
 .layout {
-  display:flex;
+  display: flex;
 }
 
 a {
   text-decoration: none;
-  color:#FF00D8;
+  color: #403B2B;
+}
+
+
+h3 {
+  font-family: monospace, Courier, Roboto Mono;
 }
