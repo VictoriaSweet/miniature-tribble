@@ -1,28 +1,22 @@
-
-
 .header {
   font-family: sans-serif;
   font-size: 44px;
   height: 150px;
-  border: 15px outset #CFCFCF;
+  border: 15px outset #cfcfcf;
   text-align: center;
 }
 
 h1 {
-display: flex;
-font-size: 70px;
+  display: flex;
+  font-size: 70px;
 }
-
 
 .nav-container {
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-end !important;
   max-width: 1200px;
-
 }
-
-
 
 .flex-grid {
   display: flex;
@@ -35,7 +29,9 @@ font-size: 70px;
 
 .box:hover {
   background-color: 00FFD8;
-  box-shadow: rgba(255, 88, 144, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(255, 88, 144, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .link {
@@ -49,7 +45,6 @@ font-size: 70px;
 #about-me {
   background-image: url("../chic.jpg");
   background-size: 500px 200px;
-
 }
 
 #about-me-header h3 {
@@ -57,14 +52,12 @@ font-size: 70px;
   width: 250px;
   height: 70px;
   border: inset;
-
-
 }
 
 .about-me-article {
   width: auto;
   height: auto;
-  background-color: #EAB0B0;
+  background-color: #eab0b0;
 }
 
 #contact-information-header h3 {
@@ -81,8 +74,7 @@ font-size: 70px;
 .contact-information-article {
   width: auto;
   height: auto;
-  background-color: #9C9C9C;
-
+  background-color: #9c9c9c;
 }
 
 #professional-links {
@@ -93,21 +85,19 @@ font-size: 70px;
 #professional-links-header h3 {
   font-size: 50px;
   border: inset;
-  width:350px;
-  height:130px;
-
+  width: 350px;
+  height: 130px;
 }
 
 .professional-links-article {
-  width: auto;;
+  width: auto;
   height: auto;
-  background-color: #EA9898;
+  background-color: #ea9898;
 }
 
 .professional-links {
   color: black;
 }
-
 
 #work-header h3 {
   font-size: 60px;
@@ -119,10 +109,7 @@ font-size: 70px;
   width: auto;
   height: auto;
   background-color: slategray;
-
 }
-
-
 
 #work {
   background-image: url("../chic.jpg");
@@ -133,15 +120,15 @@ font-size: 70px;
 
 .layout {
   display: flex;
-  max-width:500px;
+  max-width: 500px;
   max-height: 800px;
 }
-.image{
+.image {
   aspect-ratio: 100 / 100;
 }
 a {
   text-decoration: underline dotted;
-  text-decoration-color: #E72580;
+  text-decoration-color: #e72580;
   text-decoration-thickness: 15px;
   color: black;
   border: pink inset;
@@ -158,24 +145,25 @@ p {
   font-size: 25px;
 }
 
-p a { 
-  background: rgb(201,150,194);
-background: radial-gradient(circle, rgba(201,150,194,1) 0%, rgba(60,49,49,0.8155637254901961) 100%);
+p a {
+  background: rgb(201, 150, 194);
+  background: radial-gradient(
+    circle,
+    rgba(201, 150, 194, 1) 0%,
+    rgba(60, 49, 49, 0.8155637254901961) 100%
+  );
 }
 
-
-
-
 .body {
-  @media only screen and (max-width: 700px;)
+  @media only screen and (max-width: 700px);
 }
 
 ul li {
   border: dashed;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
   font-style: italic;
 }
-li { 
+li {
   font-size: 50px;
 }
